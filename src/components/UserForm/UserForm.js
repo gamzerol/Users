@@ -26,6 +26,7 @@ const UserForm = ({setUsers, users}) => {
       const member = {
         name,
         age,
+        id: new Date().getTime()
       };
       setUsers([
           ...users,

@@ -5,11 +5,6 @@ import './App.css';
 
 function App() {
   const [users, setUsers] = useState([]);
-  const deletedMember = (memberID) => {
-    console.log(memberID)
-    return users.filter(user => user.id !== memberID)
-    
-  }
   return (
     <div className="App">
       <UserForm users={users} setUsers={setUsers} />

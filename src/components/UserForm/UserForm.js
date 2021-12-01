@@ -44,7 +44,7 @@ const UserForm = ({setUsers, users}) => {
         <label>Username</label>
         <input
           type="text"
-          className={styles["form-input"]}
+          className="name-input"
           value={name}
           onChange={nameChangeHandler}
         />
@@ -53,7 +53,7 @@ const UserForm = ({setUsers, users}) => {
         <label>Age(Years)</label>
         <input
           type="number"
-          className={styles["form-input"]}
+          className="age-input"
           value={age}
           onChange={ageChangeHandler}
         />
